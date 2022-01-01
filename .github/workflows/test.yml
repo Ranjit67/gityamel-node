@@ -1,1 +1,8 @@
-sfs
+name: My first Github action
+on: [push]
+jobs: 
+  print-hello-world:  
+    runs-on:  ubuntu-latest
+    step: 
+      - run:  echo  "hello world"
+      - run:  echo  "hello world2"
