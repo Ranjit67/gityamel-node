@@ -11,6 +11,6 @@ jobs:
       - name: install project
         run:  npm i
       - name: Build the project
-        run:  npm run build
+        run:  npm start
       - name: End this
         run:  echo "End Game!!"
