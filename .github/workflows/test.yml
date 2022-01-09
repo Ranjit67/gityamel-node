@@ -10,4 +10,8 @@ jobs:
           node-version: "16.13.1"
       - name: check
         run:  node -v
+      - name: install node-modules
+        run:  npm i
+      - name: build project
+        run: npm run build
     
